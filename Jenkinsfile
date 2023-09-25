@@ -1,6 +1,6 @@
 node ('ubuntu'){
     def app
-    stage ('Cloning Git')
+    stage ('Cloning Git') {
        checkout scm
     }
 
